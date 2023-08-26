@@ -23,7 +23,7 @@ $uptime[ms]
 
 ## Outputs
 Here's a preview of what they look like:
-<figure><img src="https://cdn.discordapp.com/attachments/647127947144069120/1035898830262120458/unknown.png" alt=""><figcaption><p>Output of $uptime with <strong>ms</strong> option</p></figcaption></figure>
+![Output of $uptime with ms option](https://cdn.discordapp.com/attachments/647127947144069120/1035898830262120458/unknown.png)
 
-<figure><img src="https://cdn.discordapp.com/attachments/647127947144069120/1035899272379498557/unknown.png" alt=""><figcaption><p>Output of $uptime with <strong>humanize</strong> option</p></figcaption></figure>
+![Output of $uptime with humanize option](https://cdn.discordapp.com/attachments/647127947144069120/1035899272379498557/unknown.png)
 
