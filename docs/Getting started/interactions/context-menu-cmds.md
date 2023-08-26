@@ -2,28 +2,28 @@
 sidebar_position: 3
 ---
 
-# creating context menu commands
+# Context menu commands
 
 In this guide, you will learn on how to create context menu commands for both users and messages using `$createApplicationCommand`.
 
 ## Types
 
-* `message`: context menu commands made for messages when you right click on a msg or when you long tap on a message to trigger the context menu command from Mobile.
-* `user`: context menu commands made for users when you right click on them or when you long tap on a user to trigger the context menu command from Mobile.
+* `message`: Context menu commands made for messages when you right click on a msg or when you long tap on a message to trigger the context menu command from Mobile.
+* `user`: Context menu commands made for users when you right click on them or when you long tap on a user to trigger the context menu command from Mobile.
 
 ## Creating two context menu cmds
 
 Let's say we want to have a context menu cmd, one for user type for the sake of reporting them, second is for remind me system, we can do the following:
 
 
-```javascript
+```js
 // For users
 $createApplicationCommand[global;report This User;;true;user]
 
 // For messages
 $createApplicationCommand[global;remind Me;;true;message]
 
-// note: descriptions are not required if you're creating context menu commands in the function meaning that you can leave them blank.
+// Note: descriptions are not required if you're creating context menu commands in the function meaning that you can leave them blank.
 ```
 
 
