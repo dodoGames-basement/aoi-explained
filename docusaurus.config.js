@@ -9,8 +9,8 @@ const projectName = "aoi.js-docs-by-dodo-v2";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "dodo aoi.js docs",
+  tagline: "A docs dedicated to improving aoi dev's lifes!",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
