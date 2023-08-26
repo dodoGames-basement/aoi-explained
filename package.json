@@ -1,6 +1,6 @@
 {
-  "name": "aoi.js-docs-by-dodo-v2",
-  "version": "2.0.0",
+  "name": "dodo-aoi.js-stuff",
+  "version": "2.0.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

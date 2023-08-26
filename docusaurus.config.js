@@ -9,7 +9,7 @@ const projectName = "aoi.js-docs-by-dodo-v2";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "dodo aoi.js docs",
+  title: "Dodo aoi.js Stuff",
   tagline: "A docs dedicated to improving aoi dev's lifes!",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
@@ -60,7 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "dodo aoi.js docs",
+        title: "Dodo aoi.js Stuff",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
