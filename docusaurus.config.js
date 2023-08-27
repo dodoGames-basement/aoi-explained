@@ -64,7 +64,8 @@ const config = {
         logo: {
           alt: "My Site Logo",
           src: "img/favicon.ico",
-          href: "https://dodogames-s-studios.github.io/aoi.js-docs-by-dodo-v2/"
+          href: "https://dodogames-s-studios.github.io/aoi.js-docs-by-dodo-v2/",
+          target: "_self"
         },
         items: [
           {
