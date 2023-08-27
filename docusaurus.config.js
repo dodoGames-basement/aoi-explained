@@ -63,7 +63,7 @@ const config = {
         title: "Dodo aoi.js Stuff",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/favicon.ico",
         },
         items: [
           {
