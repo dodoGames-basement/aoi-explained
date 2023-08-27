@@ -86,7 +86,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Getting started",
             items: [
               {
                 label: "Docs",
@@ -125,11 +125,16 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© dodoGames development 2019-${new Date().getFullYear()}.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      themeConfig: {
+        colorMode: {
+          defaultMode: 'dark',
+        },
       },
     }),
 };
