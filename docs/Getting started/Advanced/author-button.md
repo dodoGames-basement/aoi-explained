@@ -12,6 +12,7 @@ example such as blackjack game, help command, etc.
 
 * Aoi.parser installed (for ephemeral messages) otherwise ephemeral won't work except for the rest of the code
 * Must have the event `onInteractionCreate` for this to work (if it wasn't obvious)
+* Have command handler setup. Author buttons do not work in index.js with `bot.command`
 
 # Example author button code
 
