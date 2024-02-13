@@ -5,7 +5,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const organizationName = "dodoGames-basement";
-const projectName = "aoi.js-docs-by-dodo-v2";
+const projectName = "aoi-explained";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
