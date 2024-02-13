@@ -16,20 +16,18 @@ To start off, you need to add the following into your `events:` options:
 ```js
 const { AoiClient } = require("aoi.js")
 
-const bot = new AoiClient({
+const client = new AoiClient({
     token: "Discord Token",
     prefix: "Discord Prefix",
     intents: ["MessageContent", "GuildMessages", "Guilds"],
     events: ["onMessage", "onInteractionCreate", "onFunctionError"], 
-database: { 
-     type: "aoi.db",
-     db: require("aoi.db"),
-     tables: ["main"],
-     path: "./database/",
-     extraOptions: {
-         dbType: "KeyValue" 
-     },
- }
+    database: {
+        type: "aoi.db",
+        db: require("@akarui/aoi.db"),
+        dbType: "KeyValue",
+        tables: ["main"],
+        securityKey: "a-32-characters-long-string-here",
+    }
 })
 ```
 
@@ -56,4 +54,4 @@ After filling up the channel id you want to on the **channel** property, you wil
 
 ## Conclusion
 
-now you have an error logging system that is perfectly working with no issues, you can customize anything to your liking including changing the way on how should the errors be shown.
+Now you have an error logging system that is perfectly working with no issues. You can customize anything to your liking including changing the way on how should the errors be shown.

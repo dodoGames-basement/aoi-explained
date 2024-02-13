@@ -18,10 +18,10 @@ Let's say we want to have a context menu cmd, one for user type for the sake of 
 
 ```js
 // For users
-$createApplicationCommand[global;report This User;;true;user]
+$createApplicationCommand[global;report This User;;true;true;user]
 
 // For messages
-$createApplicationCommand[global;remind Me;;true;message]
+$createApplicationCommand[global;remind Me;;true;true;message]
 
 // Note: descriptions are not required if you're creating context menu commands in the function meaning that you can leave them blank.
 ```

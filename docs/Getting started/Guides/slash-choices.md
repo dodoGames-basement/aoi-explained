@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 ---
+# Slash command choices
 Welcome to the sequel of my take on slash commands tutorial! This guide is mainly dedicated to choices around slash commands and how to use them! It is advised to read on what’s in the guide if you’re new to this to avoid making mistakes.
 
 # What are choices?

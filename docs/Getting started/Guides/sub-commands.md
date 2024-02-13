@@ -13,7 +13,7 @@ Let's say that if we want two sub commands then we will add them using `$createA
 ```js
 module.exports = {
 name: "sub",
-code: `$createApplicationCommand[$guildID;slash;sub commands showcase!;true;slash;[
+code: `$createApplicationCommand[$guildID;slash;sub commands showcase!;true;true;slash;[
 {
   "name": "sub1",
   "description": "an sub command example!",
@@ -38,7 +38,7 @@ In case, we want an sub command to have a option then we're gonna modify our sub
 ```js
 module.exports = {
 name: "sub",
-code: `$createApplicationCommand[$guildID;slash;sub commands showcase!;true;slash;[
+code: `$createApplicationCommand[$guildID;slash;sub commands showcase!;true;true;slash;[
 {
   "name": "sub1",
   "description": "an sub command example!",

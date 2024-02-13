@@ -4,13 +4,13 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-const organizationName = "dodoGames-s-Studios";
+const organizationName = "dodoGames-basement";
 const projectName = "aoi.js-docs-by-dodo-v2";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Dodo aoi.js Stuff",
-  tagline: "A docs dedicated to improving aoi dev's lifes!",
+  title: "dodoGames Aoi explained",
+  tagline: "A guy trying to explain aoi.js stuff under his own take...",
   url: `https://${organizationName}.github.io`,
   baseUrl: `/${projectName}/`,
   onBrokenLinks: "throw",
@@ -63,7 +63,7 @@ const config = {
           defaultMode: 'dark',
         },
       navbar: {
-        title: "Dodo aoi.js Stuff",
+        title: "dodoGames Aoi explained",
         logo: {
           alt: "My Site Logo",
           src: "img/favicon.ico",
@@ -128,7 +128,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© dodoGames development 2019-${new Date().getFullYear()}.`,
+        copyright: `© dodoGames development 2020-${new Date().getFullYear()}.`,
       },
       prism: {
         theme: lightCodeTheme,
